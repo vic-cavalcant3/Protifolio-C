@@ -42,6 +42,7 @@ void verificar_idade(){
    do {                                         
     printf("Digite sua idade: ");
     leitura = scanf("%d", &idade);
+    scanf("%*s");
     if(leitura != 1 || idade <= 0)
         printf("Opcao Invalida!! Tente novamente.\n");
     } while (leitura != 1 || idade <= 0);      
